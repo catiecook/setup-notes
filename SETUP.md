@@ -6,10 +6,15 @@
 
 ##KNEX
 `creatdb [database name]`- create database
+
 `psql [dbname] -f sql/seed.sql` - seed the databse with the seen file
+
 `knex init`
+
 `mkdir database`
+
 `touch database/knex.js`
+
 `seed:make [name]` - create seed directory and file with the name specified
 `migrate:make [name]` - make a migration file, name should be specific
 `migrate:latest` - migrate the data into a table
@@ -79,5 +84,5 @@ PORT=8743 //random 4 digits over 3000
 `git push origin master`
 `git push heroku master`
 
-#Debugging
+*Debugging*
 `heroku log` - logs all the problems
