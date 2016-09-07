@@ -114,4 +114,5 @@ PORT=8743 //random 4 digits over 3000
 
 
 *Debugging*
+
 `heroku log` - logs all the problems
