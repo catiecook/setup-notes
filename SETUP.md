@@ -8,11 +8,13 @@
 `npm i [other modules you want] -S`
 
 ##KNEX
+`npm install knex pg -S`
+
+`knex init`
+
 `creatdb [database name]`- create database
 
 `psql [dbname] -f sql/seed.sql` - seed the databse with the seen file
-
-`knex init`
 
 `mkdir database`
 
